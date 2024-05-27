@@ -1,0 +1,33 @@
+2024-05-27 09:43:02.855 +05:30 [INF] Now listening on: http://localhost:5199
+2024-05-27 09:43:02.920 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-27 09:43:02.922 +05:30 [INF] Hosting environment: Development
+2024-05-27 09:43:02.924 +05:30 [INF] Content root path: D:\Karnisha\Backend\LXP\LXP.Api
+2024-05-27 09:43:10.849 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-05-27 09:43:12.648 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 1811.1203ms
+2024-05-27 09:43:12.690 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-05-27 09:43:12.690 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-27 09:43:12.704 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 13.8496ms
+2024-05-27 09:43:13.028 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 338.4416ms
+2024-05-27 09:43:13.144 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-05-27 09:43:13.390 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 247.4333ms
+2024-05-27 10:57:58.388 +05:30 [INF] Now listening on: http://localhost:5199
+2024-05-27 10:57:58.503 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-27 10:57:58.507 +05:30 [INF] Hosting environment: Development
+2024-05-27 10:57:58.509 +05:30 [INF] Content root path: D:\LXP\Sprint_4_BE_1\Backendspirit4pending\LXP\LXP.Api
+2024-05-27 10:58:06.616 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-05-27 10:58:08.152 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 1550.5983ms
+2024-05-27 10:58:08.207 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-27 10:58:08.208 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-05-27 10:58:08.218 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 12.0774ms
+2024-05-27 10:58:08.635 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 426.4781ms
+2024-05-27 10:58:08.710 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-05-27 10:58:09.107 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 396.8378ms
+2024-05-27 10:58:24.332 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/lxp/course/material/cd2e461e-fad3-47bf-834b-5f3011ab445e - null null
+2024-05-27 10:58:24.365 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-05-27 10:58:24.379 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.MaterialController.GetMaterialByMaterialId (LXP.Api)'
+2024-05-27 10:58:24.469 +05:30 [INF] Route matched with {action = "GetMaterialByMaterialId", controller = "Material"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetMaterialByMaterialId(System.String) on controller LXP.Api.Controllers.MaterialController (LXP.Api).
+2024-05-27 10:58:31.816 +05:30 [INF] Executing OkObjectResult, writing value of type 'LXP.Common.ViewModels.APIResponse'.
+2024-05-27 10:58:31.917 +05:30 [INF] Executed action LXP.Api.Controllers.MaterialController.GetMaterialByMaterialId (LXP.Api) in 7431.1584ms
+2024-05-27 10:58:31.923 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.MaterialController.GetMaterialByMaterialId (LXP.Api)'
+2024-05-27 10:58:31.933 +05:30 [INF] HTTP GET /lxp/course/material/cd2e461e-fad3-47bf-834b-5f3011ab445e responded 200 in 7574.7095 ms
+2024-05-27 10:58:31.959 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/lxp/course/material/cd2e461e-fad3-47bf-834b-5f3011ab445e - 200 null application/json; charset=utf-8 7627.1004ms
